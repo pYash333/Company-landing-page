@@ -1,0 +1,163 @@
+@media only screen and (max-width: 1024px) {
+  .top-hero-wrapper .navbar .nav-link {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 992px) {
+}
+@media only screen and (max-width: 768px) {
+  /* Hero content css */
+  .top-hero-wrapper .navbar .nav-link {
+    color: var(--primary-color);
+}
+  .top-hero-wrapper .navbar .toggle-menu-btn {
+    display: block;
+   background-color: var(--primary-color);
+}
+  .top-hero-wrapper .hero-content-wrpper h3 {
+    font-size: 30px;
+  }
+  .top-hero-wrapper .hero-content-wrpper h1 {
+    font-size: 50px;
+  }
+  .top-hero-wrapper .hero-content-wrpper p {
+    font-size: 16px;
+  }
+  /* About css */
+  .about-section {
+    padding: 60px 0;
+  }
+  .about-section .title {
+    font-size: 45px;
+    padding: 15px 0;
+  }
+  .about-section .about-section-row {
+    flex-direction: column-reverse;
+  }
+  .about-section p {
+    font-size: 16px;
+  }
+  .about-section .about-img-wrapper {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  /* Choose us css */
+  .chooseUs-section .title {
+    font-size: 45px;
+  }
+  .chooseUs-section p {
+    font-size: 16px;
+  }
+  .chooseUs-section .chooseUs-slider .box .slider-btn {
+    font-size: 13px;
+  }
+  /* Services css */
+  .services-section .title {
+    font-size: 45px;
+  }
+  .services-section .card-title {
+    font-size: 14px;
+  }
+  .services-section .card-text {
+    font-size: 12px;
+  }
+  /* Review css */
+  .review-section {
+    padding: 40px;
+  }
+  .review-section .title {
+    font-size: 45px;
+  }
+  /*Team css */
+  .team-section .title {
+    font-size: 45px;
+    padding: 15px 0;
+  }
+  .footer-section .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 576px) {
+  /* Hero content css */
+  .top-hero-wrapper .hero-content-wrpper h3 {
+    font-size: 16px;
+  }
+  .top-hero-wrapper .hero-content-wrpper h1 {
+    font-size: 30px;
+  }
+  .top-hero-wrapper .hero-content-wrpper .get-started-btn {
+    margin-right: 9px;
+  }
+  .top-hero-wrapper .hero-content-wrpper .btn {
+    font-size: 10px;
+    padding: 10px 10px;
+  }
+  /* About css */
+  .about-section .title {
+    font-size: 30px;
+  }
+  .about-section .about-img-wrapper {
+    display: none;
+  }
+  /* Choose us css */
+  .chooseUs-section {
+    padding: 50px 0;
+  }
+  .chooseUs-section .title {
+    font-size: 30px;
+  }
+  .chooseUs-section .title {
+    padding: 15px 0;
+  }
+  .chooseUs-section p {
+    padding: 15px 0;
+  }
+  /* Services css */
+  .services-section .title {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  .services-section .right-col {
+    justify-content: center;
+  }
+  .services-section .view-more-btn {
+    margin-top: 0;
+  }
+  /* Review css */
+  .review-section {
+    height: 700px;
+    padding: 20px;
+  }
+  .review-section .title {
+    font-size: 30px;
+  }
+  .review-section .title {
+    padding: 15px 0;
+  }
+  .review-section .card {
+    padding: 15px;
+  }
+  .team-section .title {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+  /* footer css */
+  .footer-section .news-letter {
+    width: 370px;
+    top: -34px;
+  }
+  .footer-section .news-letter .nl-input {
+    padding: 15px 150px 15px 20px;
+  }
+  .footer-section .news-letter .news-letterbtn {
+    font-size: 16px;
+  }
+  .footer-section p {
+    width: 100%;
+  }
+  .footer-section .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
